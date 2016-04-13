@@ -87,6 +87,18 @@ describe('number validates', function () {
         {card: 'master-card', isPotentiallyValid: true, isValid: true}],
       ['5555555555554446',
         {card: 'master-card', isPotentiallyValid: false, isValid: false}],
+      ['2221056633263356',
+        {card: 'master-card', isPotentiallyValid: true, isValid: true}],
+      ['2720995612123626',
+        {card: 'master-card', isPotentiallyValid: true, isValid: true}],
+      ['2711992605031222',
+        {card: 'master-card', isPotentiallyValid: true, isValid: true}],
+      ['2673144428321556',
+        {card: 'master-card', isPotentiallyValid: true, isValid: true}],
+      ['272099999',
+        {card: 'master-card', isPotentiallyValid: true, isValid: false}],
+      ['2221009999999999',
+        {card: 'master-card', isPotentiallyValid: false, isValid: false}],
     ]);
   });
 

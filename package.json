@@ -31,7 +31,7 @@
     "vinyl-source-stream": "^1.0.0"
   },
   "dependencies": {
-    "credit-card-type": "^4.0.0",
+    "credit-card-type": "git+https://github.com/edoswaldgo/credit-card-type.git#04b05ff20da02b7cb4fcebaf68671c8c23fe9846",
     "lodash": "3.10.1"
   }
 }
